@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34C4E4492789180A0091229D /* WeightCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C4E4482789180A0091229D /* WeightCellView.swift */; };
+		34C4E44B27891DE80091229D /* AddWeightViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C4E44A27891DE80091229D /* AddWeightViewModel.swift */; };
+		34C4E44D27891E370091229D /* AddWeightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C4E44C27891E370091229D /* AddWeightView.swift */; };
+		34E935462789077D005FEDBB /* BMITrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E935452789077D005FEDBB /* BMITrackerApp.swift */; };
+		34E935482789077D005FEDBB /* WeightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E935472789077D005FEDBB /* WeightView.swift */; };
+		34E9354A2789077E005FEDBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34E935492789077E005FEDBB /* Assets.xcassets */; };
+		34E9354D2789077E005FEDBB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34E9354C2789077E005FEDBB /* Preview Assets.xcassets */; };
+		34E9354F2789077E005FEDBB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E9354E2789077E005FEDBB /* Persistence.swift */; };
+		34E935522789077E005FEDBB /* BMITracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 34E935502789077E005FEDBB /* BMITracker.xcdatamodeld */; };
+		34E9355A27890949005FEDBB /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E9355927890949005FEDBB /* OnboardingView.swift */; };
+		34E9355E27890AD2005FEDBB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E9355D27890AD2005FEDBB /* ContentView.swift */; };
+		34E9356227890F3D005FEDBB /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E9356127890F3D005FEDBB /* DateExtension.swift */; };
+		34E9356627890F76005FEDBB /* DoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E9356527890F76005FEDBB /* DoubleExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		34C4E4482789180A0091229D /* WeightCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightCellView.swift; sourceTree = "<group>"; };
+		34C4E44A27891DE80091229D /* AddWeightViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWeightViewModel.swift; sourceTree = "<group>"; };
+		34C4E44C27891E370091229D /* AddWeightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWeightView.swift; sourceTree = "<group>"; };
+		34E935422789077D005FEDBB /* Record-BMI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Record-BMI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34E935452789077D005FEDBB /* BMITrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMITrackerApp.swift; sourceTree = "<group>"; };
+		34E935472789077D005FEDBB /* WeightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightView.swift; sourceTree = "<group>"; };
+		34E935492789077E005FEDBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34E9354C2789077E005FEDBB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		34E9354E2789077E005FEDBB /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		34E935512789077E005FEDBB /* BMITracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BMITracker.xcdatamodel; sourceTree = "<group>"; };
+		34E9355927890949005FEDBB /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		34E9355D27890AD2005FEDBB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		34E9356127890F3D005FEDBB /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		34E9356527890F76005FEDBB /* DoubleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34E9353F2789077D005FEDBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34E935392789077D005FEDBB = {
+			isa = PBXGroup;
+			children = (
+				34E935442789077D005FEDBB /* BMITracker */,
+				34E935432789077D005FEDBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34E935432789077D005FEDBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34E935422789077D005FEDBB /* Record-BMI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34E935442789077D005FEDBB /* BMITracker */ = {
+			isa = PBXGroup;
+			children = (
+				34E935452789077D005FEDBB /* BMITrackerApp.swift */,
+				34E9355D27890AD2005FEDBB /* ContentView.swift */,
+				34E9355F27890B8A005FEDBB /* View */,
+				34E9355827890926005FEDBB /* Onboarding */,
+				34E9356027890F2A005FEDBB /* Extensions */,
+				34E935492789077E005FEDBB /* Assets.xcassets */,
+				34E9354E2789077E005FEDBB /* Persistence.swift */,
+				34E935502789077E005FEDBB /* BMITracker.xcdatamodeld */,
+				34E9354B2789077E005FEDBB /* Preview Content */,
+			);
+			path = BMITracker;
+			sourceTree = "<group>";
+		};
+		34E9354B2789077E005FEDBB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				34E9354C2789077E005FEDBB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		34E9355827890926005FEDBB /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				34E9355927890949005FEDBB /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		34E9355F27890B8A005FEDBB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				34E935472789077D005FEDBB /* WeightView.swift */,
+				34C4E4482789180A0091229D /* WeightCellView.swift */,
+				34C4E44C27891E370091229D /* AddWeightView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		34E9356027890F2A005FEDBB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				34E9356127890F3D005FEDBB /* DateExtension.swift */,
+				34E9356527890F76005FEDBB /* DoubleExtension.swift */,
+				34C4E44A27891DE80091229D /* AddWeightViewModel.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34E935412789077D005FEDBB /* BMI-Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34E935552789077E005FEDBB /* Build configuration list for PBXNativeTarget "BMI-Tracker" */;
+			buildPhases = (
+				34E9353E2789077D005FEDBB /* Sources */,
+				34E9353F2789077D005FEDBB /* Frameworks */,
+				34E935402789077D005FEDBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BMI-Tracker";
+			productName = BMITracker;
+			productReference = 34E935422789077D005FEDBB /* Record-BMI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34E9353A2789077D005FEDBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					34E935412789077D005FEDBB = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 34E9353D2789077D005FEDBB /* Build configuration list for PBXProject "Record-BMI" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34E935392789077D005FEDBB;
+			productRefGroup = 34E935432789077D005FEDBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34E935412789077D005FEDBB /* BMI-Tracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34E935402789077D005FEDBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34E9354D2789077E005FEDBB /* Preview Assets.xcassets in Resources */,
+				34E9354A2789077E005FEDBB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34E9353E2789077D005FEDBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34E9356627890F76005FEDBB /* DoubleExtension.swift in Sources */,
+				34C4E44B27891DE80091229D /* AddWeightViewModel.swift in Sources */,
+				34E9354F2789077E005FEDBB /* Persistence.swift in Sources */,
+				34E9356227890F3D005FEDBB /* DateExtension.swift in Sources */,
+				34E935482789077D005FEDBB /* WeightView.swift in Sources */,
+				34E9355E27890AD2005FEDBB /* ContentView.swift in Sources */,
+				34E935462789077D005FEDBB /* BMITrackerApp.swift in Sources */,
+				34E9355A27890949005FEDBB /* OnboardingView.swift in Sources */,
+				34C4E4492789180A0091229D /* WeightCellView.swift in Sources */,
+				34C4E44D27891E370091229D /* AddWeightView.swift in Sources */,
+				34E935522789077E005FEDBB /* BMITracker.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		34E935532789077E005FEDBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34E935542789077E005FEDBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34E935562789077E005FEDBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BMITracker/Preview Content\"";
+				DEVELOPMENT_TEAM = Q9JWEXX72Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cibarra.Record-BMI";
+				PRODUCT_NAME = "Record-BMI";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		34E935572789077E005FEDBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BMITracker/Preview Content\"";
+				DEVELOPMENT_TEAM = Q9JWEXX72Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cibarra.Record-BMI";
+				PRODUCT_NAME = "Record-BMI";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34E9353D2789077D005FEDBB /* Build configuration list for PBXProject "Record-BMI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34E935532789077E005FEDBB /* Debug */,
+				34E935542789077E005FEDBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34E935552789077E005FEDBB /* Build configuration list for PBXNativeTarget "BMI-Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34E935562789077E005FEDBB /* Debug */,
+				34E935572789077E005FEDBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		34E935502789077E005FEDBB /* BMITracker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				34E935512789077E005FEDBB /* BMITracker.xcdatamodel */,
+			);
+			currentVersion = 34E935512789077E005FEDBB /* BMITracker.xcdatamodel */;
+			path = BMITracker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 34E9353A2789077D005FEDBB /* Project object */;
+}
